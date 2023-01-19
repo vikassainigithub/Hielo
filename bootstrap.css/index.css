@@ -1,0 +1,221 @@
+/* *{
+   border:1px solid red;
+} */
+body{
+     background-color: #dfdfdf;
+}
+.myfluid{
+    padding:0px;
+}
+#mynavigation{
+   background:none;
+   border:0;
+   position: absolute;
+   top:20px;
+   z-index: 1;
+   width:100%;
+   /* background-color: black; */
+}
+#mynavigation .navbar-toggle{
+   display: block;
+   border:0;
+ }
+#mynavigation .navbar-toggle:hover{
+  cursor:pointer;
+  background: none;
+}
+#mynavigation .navbar-header{
+   float: none;
+}
+#mynavigation .icon-bar{
+   background-color:white;
+}
+#mynavigation .navbar-brand,#mynavigation ul li a{
+   color:white;
+}
+#mynavigation .icon-bar-left{
+   float:left;
+}
+#mynavigation .icon-right{
+   float:right;
+   margin-left:5px;
+   margin-top: -3px;
+   color:#fff;
+}
+#mynavigation .navbar-right{
+   float:left !important;
+}
+#mynavigation .navbar-brand span{
+   color:rgb(213, 213, 213);
+}
+/* banner starts */
+.banner{
+          position:absolute;
+          top:40%;
+          z-index: 1;
+          color:#fff;
+          /* background-color: aqua; */
+          width:100%;
+}
+.banner p{
+     font-size: 15px;
+     letter-spacing:5px;
+     text-align: center;
+}
+.banner hr{
+     width:25%;
+}
+.banner h1{
+   font-size: 60px;
+   text-align: center;
+}
+.banner .myrow{
+    margin:0;
+    padding:0;
+}
+/* carousel starts */
+#mycarousel{
+   padding:0px;
+}
+.carousel-inner .item{
+   background-image: url("C:/Users/Lenovo/Desktop/web dev/pic/images/slide01.jpg");
+   background-size: cover;
+   width:100vw;
+   height:100vh;
+}
+.carousel-inner .item2{
+   background-image: url("C:/Users/Lenovo/Desktop/web dev/pic/images/slide02.jpg");
+}
+.carousel-inner .item3{
+   background-image: url("C:/Users/Lenovo/Desktop/web dev/pic/images/slide03.jpg");
+}
+.carousel-inner .item4{
+   background-image: url("C:/Users/Lenovo/Desktop/web dev/pic/images/slide04.jpg");
+}  
+ /*team two starts  */
+ /*team two starts  */
+.mycontainer{
+     /* background-color: aquamarine; */
+     padding:80px 50px;
+}
+.mycontainer img{
+       width:100%;
+}
+.mycontainer .left{
+   background-color:  white;
+   text-align: center;
+   margin-right:25px;  
+}
+.mycontainer .left h6{
+   font-size:9px;
+   text-align: center;
+   letter-spacing:5px;
+   margin-top:30px;    
+}
+.mycontainer .left hr{
+   text-align: center;
+   width:50%;
+   margin:0 auto; 
+   margin-top:15px;
+   color:#dfdfdf;
+   font-weight:900;
+   margin-top:15px;
+}
+.mycontainer .left h1{
+   text-align: center; 
+   font-size:30px;
+   margin-top: 15px;
+}
+.mycontainer .left p{
+   margin-top:25px;
+   font-size:13px;
+   padding:0px 25px;
+   text-align: left;
+}
+.mycontainer .left .mybtn{
+     margin-top:20px;
+     width:25%;
+     height:40px;
+     background: none;
+     border-color:#dfdfdf;
+     margin-bottom:35px;
+}
+.mycontainer .right{
+   margin-left:25px;  
+   margin-right: 0px;
+}
+/* fullquote starts */
+/* fullquote starts */
+.fullquote{
+   background-image: url("C:/Users/Lenovo/Desktop/web dev/pic/images/bg.jpg");
+   background-repeat: no-repeat;
+   background-attachment:fixed;
+   background-size: cover;
+   height:300px;    
+}
+.center{
+      text-align: center;
+      margin-top:120px;
+      color: #fff;
+}
+.center hr{
+   width:35%;
+}
+.center h6{
+   letter-spacing:6px;
+}
+/* four parts starts */
+/* four parts starts */
+.myforpart{
+   /* background-color: aquamarine; */
+   padding-bottom:60px;
+}
+.myforpart .center{
+      color:rgba(0, 0, 0, 0.564) ;
+      margin-bottom: 50px; 
+}
+.myforpart .thumbnail{
+      margin:20px;
+      border:5px solid white;
+}
+/* footer starts */
+/* footer starts */
+.footer{
+   text-align: center;    
+   background-color: black;
+   height:100px;
+   box-sizing: border-box;
+   padding:0px;
+}
+.footer span{
+   font-size:35px;
+   color:grey; 
+   padding:10px; 
+}
+.footer p{
+   margin-bottom: 0px;
+   color:grey; 
+}
+.footer .row{
+   margin:0px;
+   padding:0px;
+}
+/* media query starts for team-two parts */
+/* media query starts for team-two parts */
+@media only screen and (max-width:780px){
+      .mycontainer .left{
+            padding:0px;
+            margin: 0px;
+            margin-bottom: 15px;
+      }
+      .mycontainer .right{
+         padding:0px;
+         margin: 0px;
+   }  
+   .myforpart .thumbnail{
+      border:0px;
+   }
+   .navbar-nav{
+      margin:0px;
+   }
+}
