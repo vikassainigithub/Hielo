@@ -78,19 +78,19 @@ body{
    padding:0px;
 }
 .carousel-inner .item{
-   background-image: url("C:/Users/Lenovo/Documents/GitHub/hielo/pic/images/slide01.jpg");
+   background-image: url("C:/Users/Lenovo/Documents/GitHub/hielo/picture/image/slide01.jpg");
    background-size: cover;
    width:100vw;
    height:100vh;
 }
 .carousel-inner .item2{
-   background-image: url("C:/Users/Lenovo/Documents/GitHub/hielo/pic/images/slide02.jpg");
+   background-image: url("C:/Users/Lenovo/Documents/GitHub/hielo/picture/image/slide02.jpg");
 }
 .carousel-inner .item3{
-   background-image: url("C:/Users/Lenovo/Documents/GitHub/hielo/pic/images/slide03.jpg");
+   background-image: url("C:/Users/Lenovo/Documents/GitHub/hielo/picture/image/slide03.jpg");
 }
 .carousel-inner .item4{
-   background-image: url("C:/Users/Lenovo/Documents/GitHub/hielo/pic/images/slide04.jpg");
+   background-image: url("C:/Users/Lenovo/Documents/GitHub/hielo/picture/image/slide04.jpg");
 }  
  /*team two starts  */
  /*team two starts  */
@@ -147,7 +147,7 @@ body{
 /* fullquote starts */
 /* fullquote starts */
 .fullquote{
-   background-image: url("C:/Users/Lenovo/Documents/GitHub/hielo/pic/images/bg.jpg");
+   background-image: url("C:/Users/Lenovo/Documents/GitHub/hielo/picture/image/bg.jpg");
    background-repeat: no-repeat;
    background-attachment:fixed;
    background-size: cover;
