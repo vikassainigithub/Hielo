@@ -78,19 +78,19 @@ body{
    padding:0px;
 }
 .carousel-inner .item{
-   background-image: url("picture/slide01.jpg");
+   background-image: url("../picture/slide01.jpg");
    background-size: cover;
    width:100vw;
    height:100vh;
 }
 .carousel-inner .item2{
-   background-image: url("picture/slide02.jpg");
+   background-image: url("../picture/slide02.jpg");
 }
 .carousel-inner .item3{
-   background-image: url("picture/slide03.jpg");
+   background-image: url("../picture/slide03.jpg");
 }
 .carousel-inner .item4{
-   background-image: url("picture/slide04.jpg");
+   background-image: url("../picture/slide04.jpg");
 }  
  /*team two starts  */
  /*team two starts  */
