@@ -147,7 +147,7 @@ body{
 /* fullquote starts */
 /* fullquote starts */
 .fullquote{
-   background-image: url("C:/Users/Lenovo/Documents/GitHub/hielo/picture/bg.jpg");
+   background-image: url("../picture/bg.jpg");
    background-repeat: no-repeat;
    background-attachment:fixed;
    background-size: cover;
